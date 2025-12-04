@@ -1,0 +1,69 @@
+node_modules/
+dist/
+build/
+.env
+.env.local
+*.pyc
+__pycache__/
+*.pkl
+*.pt
+*.pth
+*.npy
+backend/uploads/
+backend/esnh_output/
+backend/best_model.pt
+backend/scaler_*.npy
+.vscode/
+.idea/
+*.log
+*.lock
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/.DS_Store
+thumbs.db
+# Node
+node_modules/
+dist/
+/.vite
+
+# Python
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment
+.env
+.env.*
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+*.DS_Store
+Thumbs.db
+
+# Archives and uploads (do NOT commit large sample files)
+backend/uploads/
+backend/archive/
+
+# Model weights and artifacts
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.joblib
+*.pkl
+
+# IDE
+.vscode/
+.idea/
+
+# Misc
+coverage/
+coverage-final.json
